@@ -46,7 +46,7 @@ function isItEnabled(data){
 	for(var key in data){
 		console.log(key);
 		console.log(data[key]);
-		if (key === "enebled"){
+		if (key === "enabled"){
 			console.log(data[key]);
 			isEnabled += data[key];
 		}
@@ -66,6 +66,10 @@ console.log(isItEnabled(preview));
 *
 * Return 	value from key enabled (boolean)
 */
+function changeValue(data){
+	console.log(data);
+}
+
 
 /*
 * Function that retrieves the urls only from the key "resolutions" 
